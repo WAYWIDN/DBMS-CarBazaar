@@ -1,9 +1,9 @@
-
-delimeter // 
+begin;
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 INSERT INTO company VALUES 
 ('CMP001', 'Tata Motors', 'India', 1),
+('CMP016','Toyota','Japan',16),('CMP017','Mazda','Japan',17),
 ('CMP002', 'Mahindra & Mahindra', 'India', 2),
 ('CMP003', 'Maruti Suzuki', 'India', 3),
 ('CMP004', 'Ashok Leyland', 'India', 4),
@@ -22,6 +22,8 @@ INSERT INTO company VALUES
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 INSERT INTO car VALUES
+('CAR101', 'Corolla', 'Sedan', 'Corolla-2022', 'CMP016', 2022, 'Automatic', 5, 50.0, 'White', 'Petrol', 6, 180, 14.8, 4, false),
+('CAR102', 'Mazda3', 'Sedan', 'Mazda3-2021', 'CMP017', 2021, 'Manual', 5, 48.5, 'Red', 'Diesel', 4, 175, 13.5, 4, true),
 ('CAR001', 'Scorpio-N', 'Hatchback', 'Scorpio-N-2020', 'CMP012', 2021, 'Manual', 5, 53.4, 'Grey', 'Petrol', 5, 167, 12.4, 2, true),
 ('CAR002', 'Punch', 'SUV', 'Punch-2024', 'CMP010', 2024, 'Manual', 7, 40.5, 'Grey', 'Diesel', 3, 188, 22.5, 5, false),
 ('CAR003', 'Thar', 'Hatchback', 'Thar-2021', 'CMP004', 2020, 'Manual', 7, 37.4, 'Red', 'Electric', 4, 191, 12.6, 5, true),
@@ -251,6 +253,9 @@ INSERT INTO seller_contact VALUES
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 INSERT INTO availablecars VALUES
+('MID101','CAR101'),
+('MID102','CAR102'),
+('MID103','CAR101'),
 ('MID001', 'CAR001'),
 ('MID002', 'CAR001'),
 ('MID003', 'CAR002'),
@@ -730,6 +735,10 @@ INSERT INTO users VALUES
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 INSERT INTO wishlist VALUES
+('USR039','MID003','2024-12-12'),
+('USR039','AID003','2025-01-12'),
+('USR038','MID030','2024-02-13'),
+('USR009','MID008','2025-02-14'),
 ('USR001', 'MID001', '2025-04-01'),
 ('USR001', 'AID001', '2025-04-02'),
 ('USR002', 'MID002', '2025-04-02'),
@@ -1035,5 +1044,4 @@ INSERT INTO service VALUES
 ('MID064', 'USR010', 'SEL002', '2025-12-28', '2025-12-30', 'in process', 1650),
 ('MID065', 'USR010', 'SEL003', '2026-01-01', '2026-01-03', 'ending', 1700);
 
-//
-delimeter ;
+commit;
