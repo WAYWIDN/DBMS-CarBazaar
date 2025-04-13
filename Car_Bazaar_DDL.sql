@@ -85,7 +85,7 @@ create table accessory_details (
 create table accessories (
     AID varchar(10) primary key,
     ADetailID varchar(10)  not null references accessory_details(ADetailID) on update cascade on delete cascade,
-    Seller_ID varchar(10) not null references seller(SellerID) on update cascade on delete cascade,
+    SellerID varchar(10) not null references seller(SellerID) on update cascade on delete cascade,
     Price numeric not null,
     InStock boolean not null
 );
