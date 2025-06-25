@@ -10,37 +10,39 @@ For sellers — whether individuals, private dealers, or official outlets — Ca
 
 ---
 
-## 📊 Sample Queries Handled
+### 📊 Sample Queries Handled
 
 This database supports a wide range of real-world operations, such as:
 
-* **Sellers with unsold cars** for a specific model (e.g., `CAR001`, `CAR002`)
-* **Contact details of sellers** from Gujarat selling high-priced vehicles
-* **Available cars by Indian or Japanese companies**
-* **Old cars** based on state code and series
-* **Sales analytics**, such as:
+* **Identifying sellers with unsold vehicles** based on specific car models
+* **Filtering old cars/new cars** using location or vehicle registration details
+* **Performing sales analytics**, including:
+  * Total revenue generated on the platform
+  * Revenue breakdown by sellers and product categories
+  * Most frequently purchased car models or accessories
+    
+* **Tracking user activity**, including:
+  * Service history within a time range
+  * Total user spending across products and services
+  * Preferred payment methods used
+    
+* **Monitoring inventory**, such as:
+  * Current stock levels by car model or accessory type
+    
+* **Analyzing car/accessory trends**, including:
+  * Top-selling car/accessories by seller
+  * Most purchased car/accessories by buyers
+   
+    
+* **Evaluating service and order patterns**, including:
+  * Monthly order volumes
+  * Seller performance metrics like total units sold and average ratings
+    
+* **Comparing products**, such as:
+  * Detailed comparison of cars based on specifications and safety ratings
 
-  * Total platform sales
-  * Seller-wise revenue (cars and accessories)
-  * Most purchased cars by city or user
-* **Wishlist tracking** and **top items by popularity**
-* **User behavior**, like:
+These capabilities demonstrate the system’s flexibility and its ability to support realistic data queries for a car marketplace environment.
 
-  * Services used in the last 6 months
-  * Total platform spending
-  * Payment methods used
-* **Inventory tracking**, e.g., car stock per model
-* **Accessory insights**, such as:
-
-  * Most sold accessories
-  * Top accessory sellers
-* **Service and order trends**, like:
-
-  * Monthly sales volume
-  * Seller dashboards with total cars sold and ratings
-* **Car comparisons** based on full specs and safety ratings
-
-These queries showcase the flexibility and real-world relevance of the database design.
 
 ---
 
