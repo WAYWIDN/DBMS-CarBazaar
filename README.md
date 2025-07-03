@@ -52,3 +52,22 @@ These capabilities demonstrate the system’s flexibility and its ability to sup
 * pgAdmin
 * ER Diagram & Relational Schema (normalized up to BCNF)
 
+## 📁 Project Structure
+
+```bash
+🚗 Car Bazaar
+├── src/
+│   ├── Car_Bazaar_DDL.sql
+│   ├── Car_Bazaar_DML.sql
+│   ├── Car_Bazaar_Queries.sql
+│   └── Car_Bazaar_Triggers.sql
+├── Relational Schema/
+│   ├── Car_Bazaar_Relational.dia
+│   └── Car_Bazaar_Relational.jpeg
+├── Docs/
+│   ├── BCNF Proof and Minimal FD set.pdf
+│   ├── ER_Diagram.jpeg
+│   └── Top3_Queries.pdf
+└── README.md
+
+
